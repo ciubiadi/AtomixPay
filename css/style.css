@@ -20,10 +20,11 @@
 }
 
 .inner_header {
+    border: 2px solid red;
     width: 1000px;
     height:100%;
     display: block;
-    margin: 0 auto;   
+    margin: auto;
 }
 
 .logo_container{
@@ -31,21 +32,22 @@
     display: table;
     float: left;
 }
-
+/*
 .logo_container h1{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
     font-size: 32px;
     font-weight: 200;
-}
+} */
 
 .logo_container h1 span{
     font-weight: 800;
+
 }
 
 .navigation{
-    float:right;
+    float: right;
     height: 100%;
     width: 432px;
     height: 19px;
@@ -58,6 +60,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    
 }
 
 .navigation a{
@@ -86,6 +89,7 @@
     width: 200px;
     height: 32px;
     object-fit: contain;
+    
 }
 
 .btnStyle {
@@ -100,6 +104,7 @@
     background-image: linear-gradient(to bottom, #39ccb0, #39ccb0), linear-gradient(to top, #3cdeb9, #35baa7);
     background-origin: border-box;
     background-clip: content-box, border-box;
+    
 }
 
 .textBtn{
@@ -115,3 +120,34 @@
     text-align: center;
     color: #ffffff;
 }
+
+.firstContainer{
+    width: 1920px;
+    height: 762px;
+    border: 2px solid red;
+}
+
+.secondContainer{
+    width: 1920px;
+    height: 3525px;
+    border: 2px solid red;
+}
+
+.thirdContainer{
+    width: 1920px;
+    height: 830px;
+    border: 2px solid red;
+}
+
+.fourthContainer{
+    width: 1920px;
+    height: 745px;
+    border: 2px solid red;
+}
+
+footer{
+    width: 1920px;
+    height: 316px;
+    border: 2px solid red;
+}
+
