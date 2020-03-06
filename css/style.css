@@ -40,7 +40,7 @@
     font-size: 32px;
     font-weight: 200;
 } */
-
+/*
 .logo_container h1 span{
     font-weight: 800;
 
@@ -48,8 +48,6 @@
 
 .navigation{
     float: right;
-  
-   
     font-family: Poppins;
     font-size: 18px;
     font-weight: normal;
@@ -63,13 +61,12 @@
 }
 
 .navigation a{
-  
     display: table;
     float: left;
     padding: 0px 20px; 
 }
 
-*/
+*//*
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
