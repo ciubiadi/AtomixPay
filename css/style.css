@@ -5,12 +5,12 @@
     text-decoration: none;
     
 }
-
+/*
 .header {
   /*  widows: 100px;
     height: 80px;
     display: block;
-    */
+    *//*
     display: block;
     width: 1920px;
     height: 110px;
@@ -48,9 +48,8 @@
 
 .navigation{
     float: right;
-    height: 100%;
-    width: 432px;
-    height: 19px;
+  
+   
     font-family: Poppins;
     font-size: 18px;
     font-weight: normal;
@@ -59,32 +58,25 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    
     
 }
 
 .navigation a{
-    height: 100%;
+  
     display: table;
     float: left;
-    padding: 0px 20px;
-    
+    padding: 0px 20px; 
 }
-/*
-.navigation a:last-child{
-    padding-right: 0;
-    
-}
+
 */
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
-    height: 100%;
-    color: white;
     font-size: 16px;
     
 }
-
+/*
 .logoImage{
     width: 200px;
     height: 32px;
