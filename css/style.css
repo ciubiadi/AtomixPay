@@ -3,7 +3,42 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
+    font-family: Poppins;
+}
+
+ul > a > li {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+div > ul {
+    display: inline-block;
+}
+
+.inner_header{
+    padding: 30px;
+}
+
+.textBtn{
+    border-radius: 10px;
+    box-shadow: 0px 9px 21.3px 0.7px rgba(34, 9, 92, 0.27);
+    padding: 10px;
+    border: 1px solid #3cdeb9;
+    width: 200px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /*
 .header {
