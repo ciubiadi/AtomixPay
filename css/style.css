@@ -21,8 +21,13 @@ div > ul {
     display: inline-block;
 }
 
+.header{
+    align-items: center;
+}
+
 .inner_header{
     padding: 30px;
+    justify-content: center;
 }
 
 .textBtn{
@@ -36,9 +41,23 @@ div > ul {
 
 .navigation {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.maximize{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*
 .header {
