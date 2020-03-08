@@ -12,12 +12,11 @@
         <title>AtomixPay - Home</title>
     </head>
     <body class="homeAtomix">
-        <div style="background-image:url('./images/maximize.png'); background-size: cover; background-repeat: no-repeat; width:100%; height: 762px;" class="firstContainer">
-            <nav class="header" style="opacity: 0.9; box-shadow: 0px 9px 41.3px 1.7px rgba(48, 47, 50, 0.1); background-image: linear-gradient(to right, #0c2f6a, #171289, #2050a9, #392192);
-             height: 110px;">
+        <div style="background-image:url('./images/maximize.png');" class="firstCont">
+            <nav class="header">
                 <div class="inner_header row">
                     <div class="navigation">
-                        <div class="logo_container" style="margin-right:169px;">
+                        <div class="logo_container">
                             <!--<h1>MY<span>SITE</span></h1> -->
                             <img src="images/logo.png"
                                 srcset="images/logo2x.png 2x,
@@ -31,9 +30,9 @@
                             <a href="#" class="nav-link"><li>Developers</li></a>
                             
                         </ul>
-                        <a href="#" class="textBtn" style="margin-left: 50px; color:white; text-decoration: none;">Get Started</a>
-                        <div style="padding: 10px; width: 200px;">
-                            <a href="#" style="color:white; text-decoration: none;">EN <i class="fa fa-arrow-down" style="color:white;"></i></a>
+                        <a href="#" class="textBtn">Get Started</a>
+                        <div id="languageSelect">
+                            <a href="#">EN <i class="fa fa-arrow-down"></i></a>
                         </div>
                     </div>
                <!--     <div class="col-sm"></div> -->
@@ -62,31 +61,33 @@
                     background-image: linear-gradient(to top, #3cdeb9, #35baa7);">Get Started</button>
             </div>
         </div>
-        <section style="width:100%; border: 2px solid red;" class="secondCont">
-        <h1 class="contItem" style="width: 518px;
-        height: 38px;
-        font-family: Poppins;
-        font-size: 35px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.4;
-        letter-spacing: normal;
-        text-align: center;
-        color: #010101;">We are a full-service provider</h1>
-        <p class="contItem" style="width: 452px;
-        height: 55px;
-        font-family: Poppins;
-        font-size: 22px;
-        font-weight: 200;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.45;
-        letter-spacing: normal;
-        text-align: center;
-        color: #414141;">Orchestrated through a powerful API, easy 
-            to integrate and developer friendly</p>
-            <div class="logosSecond">
+        <section class="secondCont">
+            <div class="contItem" style="padding-bottom:3rem;">
+                <h1 class="contItem" style="width: 518px;
+                height: 38px;
+                font-family: Poppins;
+                font-size: 35px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.4;
+                letter-spacing: normal;
+                text-align: center;
+                color: #010101;">We are a full-service provider</h1>
+                <p class="contItem" style="width: 452px;
+                height: 55px;
+                font-family: Poppins;
+                font-size: 22px;
+                font-weight: 200;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.45;
+                letter-spacing: normal;
+                text-align: center;
+                color: #414141;">Orchestrated through a powerful API, easy 
+                    to integrate and developer friendly</p>
+            </div>
+            <div class="logosSecond contItem" style="padding-bottom:3rem;">
                 <img class="contItem" src="./images/credit-card.png"
                                 srcset="images/credit-card2x.png 2x,
                                 images/credit-card3x.png 3x">
@@ -100,11 +101,18 @@
                                 srcset="images/payment2x.png 2x,
                                 images/payment3x.png 3x">
             </div>
+            <div class="logosSecond contItem" style="width: 1171px;
+            height: 178px;
+            border-radius: 10px;
+            box-shadow: 0px 9px 41.3px 1.7px rgba(48, 47, 50, 0.1);
+            background-color: #ffffff;">
+
+            </div>
         </section>
-        <section class="thirdContainer" style="height: 830px; border: 3px solid green;">
+        <section class="thirdContainer" style="height: 830px;">
             <p>Stay in Control</p>
         </section>
-        <section class="fourthContainer" style="background-image:url('./images/technology-pattern-png.png'); background-size: cover; background-repeat: no-repeat; width:100%; height: 745px; border: 3px solid purple;">
+        <section class="fourthContainer" style="background-image:url('./images/technology-pattern-png.png'); background-size: cover; background-repeat: no-repeat; width:100%; height: 745px;">
             <h1 class="contItem" style="width: 525px;
             height: 38px;
             font-size: 35px;
@@ -127,8 +135,8 @@
             color: #414141;">Twispay provides an extended array of payment module integrations
              for top-rated ecommerce platforms</p>
         </section>
-        <footer style="height: 316px; background-image: linear-gradient(to RIGHT, #0c2f6a, #171289, #2050a9, #392192);">
-            <div class="container-fluid padding">
+        <footer style="background-image: linear-gradient(to RIGHT, #0c2f6a, #171289, #2050a9, #392192);">
+            <div class="container-fluid">
                 <div class="row" style="color:white"> 
                     <div class="col-md-3" >
                         <img src="images/logo.png">
@@ -137,21 +145,47 @@
                         <p>Registered number 42212629</p>
                         <p>Municipiul lasi, Strada Pacurari, Nr. 73-75 BIS, Sector 30, Constructia C1, Parter, Camera 5, Judet Lasi, Romanian </p>
                     </div>
-                    <div class="col-md-3">
-                        <p>Atomix</p>
+                    <div class="col-sm-2">
+                        <hr style="width: 2px;
+                        height: 201px;
+                        background-color: #3cdeb9;">
+                    </div>
+                    <div class="col-md-2">
+                        <p>ATOMIX PAY</p>
+                        <hr style="width: 22px;
+                        height: 1px;
+                        background-color: #3cdeb9">
                         <p>About us</p>
                         <p>Contacts</p>
+                        <p>Pricing</p>
+                        <p>Refferal Programs</p>
+                        <p>API</p>
+                        <p>Blog</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <p>LEGAL</p>
+                        <hr style="width: 22px;
+                        height: 1px;
+                        background-color: #3cdeb9">
                         <p>Terms and Conditions</p>
                         <p>Privacy Policy</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <p>FOLLOW US</p>
+                        <hr style="width: 22px;
+                        height: 1px;
+                        background-color: #3cdeb9">
                         <div class="row container-fluid">
-                            <p>facebook</p>&nbsp &nbsp
-                            <p>instagram</p>
+                            <img style=" width: 30px;
+                            height: 30px;
+                            object-fit: contain;" src="./images/facebook.png"
+                            srcset="images/facebook2x.png 2x,
+                            images/facebook3x.png 3x">&nbsp &nbsp
+                            <img style=" width: 31px;
+                            height: 30px;
+                            object-fit: contain;" src="./images/linkedin.png"
+                            srcset="images/linkedin2x.png 2x,
+                            images/linkedin3x.png 3x">
                         </div>
                     </div>
                 </div>
