@@ -120,6 +120,17 @@ div > ul {
     box-shadow: 0px 9px 41.3px 1.7px rgba(48, 47, 50, 0.1);
     background-image: linear-gradient(to top, #dee2ee, #f6f9ff);
     width:100%;
+    padding: 3rem 20rem 3rem 20rem;
+}
+
+.card{
+    margin-bottom:35px;
+    margin-right:35px;
+}
+
+.inRow{
+    display: flex; 
+    flex-direction: row;
 }
 
 .fourthContainer {
@@ -139,138 +150,3 @@ div > ul {
 footer{
     padding: 3rem 20rem 3rem 20rem;
 }
-/*
-.header {
-  /*  widows: 100px;
-    height: 80px;
-    display: block;
-    *//*
-    display: block;
-    width: 1920px;
-    height: 110px;
-    opacity: 0.9;
-    box-shadow: 0px 9px 41.3px 1.7px rgba(48, 47, 50, 0.1);
-    background-image: linear-gradient(to top, #0c2f6a, #171289, #2050a9, #392192);
-}
-
-.inner_header {
-    border: 2px solid red;
-    width: 1000px;
-    height:100%;
-    display: block;
-    margin: auto;
-}
-
-.logo_container{
-    height : 100%;
-    display: table;
-    float: left;
-}
-/*
-.logo_container h1{
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 32px;
-    font-weight: 200;
-} */
-/*
-.logo_container h1 span{
-    font-weight: 800;
-
-}
-
-.navigation{
-    float: right;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    
-    
-}
-
-.navigation a{
-    display: table;
-    float: left;
-    padding: 0px 20px; 
-}
-
-*//*
-.navigation a li{
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 16px;
-    
-}
-/*
-.logoImage{
-    width: 200px;
-    height: 32px;
-    object-fit: contain;
-    
-}
-
-.btnStyle {
-    width: 200px;
-    height: 54px;
-    border-radius: 10px;
-    box-shadow: 0px 9px 21.3px 0.7px rgba(34, 9, 92, 0.27);
-    border-style: solid;
-    border-width: 2px;
-    border-image-source: linear-gradient(to top, #3cdeb9, #35baa7);
-    border-image-slice: 1;
-    background-image: linear-gradient(to bottom, #39ccb0, #39ccb0), linear-gradient(to top, #3cdeb9, #35baa7);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    
-}
-
-.textBtn{
-    width: 101px;
-    height: 15px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-}
-
-.firstContainer{
-    width: 1920px;
-    height: 762px;
-    border: 2px solid red;
-}
-
-.secondContainer{
-    width: 1920px;
-    height: 3525px;
-    border: 2px solid red;
-}
-
-.thirdContainer{
-    width: 1920px;
-    height: 830px;
-    border: 2px solid red;
-}
-
-.fourthContainer{
-    width: 1920px;
-    height: 745px;
-    border: 2px solid red;
-}
-
-footer{
-    width: 1920px;
-    height: 316px;
-    border: 2px solid red;
-}
-
