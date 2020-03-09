@@ -46,6 +46,11 @@ div > ul {
     text-decoration: none;
 }
 
+.textBtn:hover {
+    text-decoration: none;
+    color:white;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
